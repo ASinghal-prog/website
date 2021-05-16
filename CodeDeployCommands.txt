@@ -9,7 +9,7 @@ chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent status
 
-
+##Commands
 #Create your application.zip and load it into CodeDeploy:
 
 aws deploy create-application --application-name mywebapp
